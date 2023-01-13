@@ -31,7 +31,7 @@ class Result extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
-          ElevatedButton(onPressed: resetHandler, child: Text('Reset'))
+          TextButton(onPressed: resetHandler, child: Text('Reset'))
         ],
       ),
     );
